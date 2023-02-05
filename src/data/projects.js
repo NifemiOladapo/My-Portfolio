@@ -1,7 +1,7 @@
 import limupa from "../assets/limupa.PNG";
 import flexbook from "../assets/flexbook.PNG";
 import kolastore from "../assets/kolastore.PNG";
-import bluecure from "../assets/bluecare.PNG";
+import chatapp from "../assets/chat-app.PNG";
 import intervid from "../assets/intervid.PNG";
 
 export const PROJECTS = [
@@ -19,8 +19,8 @@ export const PROJECTS = [
     title: "Facebook Clone",
     description:
       "Facebook clone built with Reactjs and Firebase for User Authentication and database",
-    link: "http://flexbook-fd98b.web.app/",
-    github: "http://github.com/kollydap/facebookclone",
+    link: "https://fleexbook.netlify.app/",
+    github: "http://github.com/NifemiOladapo/React-Firebase-FaceBook-clone",
     image: flexbook,
   },
 
@@ -33,32 +33,32 @@ export const PROJECTS = [
   //     image: limupa
   // },
 
-  {
-    id: 4,
-    title: "Kwest",
-    description:
-      "Kwest is a social media platform built on MERN Stack, that is specifically designed for people to ask questions and then get answers. Only the backend is available for now, Frontend is under production",
-    link: "https://bluecare.netlify.app/",
-    github: "https://github.com/kollydap/blue",
-    image: bluecure,
-  },
+  // {
+  //   id: 4,
+  //   title: "Kwest",
+  //   description:
+  //     "Kwest is a social media platform built on MERN Stack, that is specifically designed for people to ask questions and then get answers. Only the backend is available for now, Frontend is under production",
+  //   link: "https://bluecare.netlify.app/",
+  //   github: "https://github.com/kollydap/blue",
+  //   image: bluecure,
+  // },
 
-  {
-    id: 5,
-    title: "Entertainment App",
-    description:
-      "Flow is an application built on MERN Stack and pusher which allows users to upload videos, like Videos, comment to videos, e.t.c. #STILL UNDER PRODUCTION",
-    link: "https://intervid.netlify.app/",
-    github: "https://github.com/kollydap/intervid",
-    image: intervid,
-  },
+  // {
+  //   id: 5,
+  //   title: "Entertainment App",
+  //   description:
+  //     "Flow is an application built on MERN Stack and pusher which allows users to upload videos, like Videos, comment to videos, e.t.c. #STILL UNDER PRODUCTION",
+  //   link: "https://intervid.netlify.app/",
+  //   github: "https://github.com/kollydap/intervid",
+  //   image: intervid,
+  // },
   {
     id: 6,
-    title: "Social App",
+    title: "Chat App",
     description:
-      "Blue Lava is a social web-application built on MERN Stack that allows users post and share contents, comment, like and other cool stuff. #STILL UNDER PRODUCTION",
-    link: "https://kollybox.netlify.app/",
-    github: "https://github.com/kollydap/textie",
-    image: flexbook,
+      "NIx-Chat is a chat application built on MERN Stack that allows users to chat with each other, create fgroup chats, e.t.c",
+    link: "https://nix-chat.netlify.app/",
+    github: "https://github.com/NifemiOladapo/netlify-chat-app",
+    image: chatapp,
   },
 ];

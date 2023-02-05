@@ -12,28 +12,28 @@ function Header() {
       <div className="header__text-box">
         <div className="social-img">
           <div className="socials">
-            <LinkedInIcon
+            {/* <LinkedInIcon
               onClick={() =>
                 (window.location.href =
                   "https://www.linkedin.com/in/oladapo-kolawole-osagie-864315185/")
               }
-            />
-            <FacebookIcon
+            /> */}
+            {/* <FacebookIcon
               onClick={() =>
                 (window.location.href =
                   "https://web.facebook.com/profile.php?id=100074142968612")
               }
-            />
+            /> */}
             <GitHubIcon
               onClick={() =>
-                (window.location.href = "https://github.com/kollydap")
+                (window.location.href = "https://github.com/NifemiOladapo")
               }
             />
-            <TwitterIcon
+            {/* <TwitterIcon
               onClick={() =>
                 (window.location.href = "https://twitter.com/kollydapp")
               }
-            />
+            /> */}
           </div>
           <img src={kollydap} alt=" kollydap" />
         </div>
